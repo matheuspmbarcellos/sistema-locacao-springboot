@@ -8,6 +8,12 @@ group = 'com.imobiliaria'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
+bootJar {
+	baseName = 'sistema-locacao'
+	version = '0.0.1-SNAPSHOT'
+}
+
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
